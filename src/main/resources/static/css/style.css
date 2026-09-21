@@ -1,0 +1,22 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: #e9e9e9;
+}
+
+body {
+    width: 100%;
+    max-width: 430px;
+    /* 앱 가로 최대 폭 */
+    min-height: 100vh;
+    /* 화면 높이만큼 사용 */
+    margin: 0 auto;
+    /* 좌우 중앙 정렬 */
+    background: #ffffff;
+    overflow: hidden;
+    /* 앱 영역 밖으로 넘치지 않게 */
+    position: relative;
+}
