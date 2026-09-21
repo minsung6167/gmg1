@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# application-local.properties 파일 무시 ( API 키 같은 정보 유출 방지 )
+src/main/resources/application-local.properties
